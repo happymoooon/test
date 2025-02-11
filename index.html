@@ -158,34 +158,7 @@ layout: master
                 </div>
                 {% endfor %}
             </div> <br>
-        </div>
-        
-        <div class="tab-pane fade" id="link-profile" role="tabpanel" aria-labelledby="link-profile-tab" tabindex="0">
-            <h4 class="display-6">Materials</h4>
-    
-            {% if site.data.materials %}
-            {% for material in site.data.materials reversed %}
-            <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
-                <div class="card-body">
-                    <h5 class="card-title">{{ material.title }}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ material.subtitle }}</h6>
-                    <p class="card-text">
-                    {% if material.description %}
-                    <p>{{ material.description }}</p>  <!-- این خط برای نمایش description -->
-                    {% endif %}
-                    </p>
-                    {% for asset in material.assets %}
-                    <a href="{{ asset.link }}" class="card-link">{{ asset.file }}</a>
-                    {% endfor %}
-                </div>
-            </div>
-            {% endfor %}
-            {% else %}
-            No material has been posted yet. <br> <br>
-            {% endif %}
-        </div>
-
-        
+        </div> 
         <div class="tab-pane fade" id="link-profile" role="tabpanel" aria-labelledby="link-profile-tab" tabindex="0">
             <h4 class="display-6">Materials</h4>
         
@@ -210,7 +183,6 @@ layout: master
             No material has been posted yet. <br> <br>
             {% endif %}
         </div>
-
         <div class="tab-pane fade" id="link-previous" role="tabpanel" aria-labelledby="link-previous-tab" tabindex="0">
             <h4 class="display-6">Problem sets</h4>
             {% if site.data.previous %}
