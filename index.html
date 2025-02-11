@@ -161,10 +161,10 @@ layout: master
         </div>
         
         <div class="tab-pane fade" id="link-profile" role="tabpanel" aria-labelledby="link-profile-tab" tabindex="0">
-        <h4 class="display-6">Materials</h4>
-
-        {% if site.data.materials %}
-        {% for material in site.data.materials reversed %}
+            <h4 class="display-6">Materials</h4>
+    
+            {% if site.data.materials %}
+            {% for material in site.data.materials reversed %}
             <div class="card" style="margin-top: 10pt; margin-bottom: 10pt;">
                 <div class="card-body">
                     <h5 class="card-title">{{ material.title }}</h5>
