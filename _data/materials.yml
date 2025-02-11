@@ -174,3 +174,7 @@
   assets:
     - file: Slide
       link: https://stoch-sut.github.io/slides/
+      description: |
+        This link contains the slides for Probability and Statistics. The first two slides provide an 
+        overview of the basics, covering foundational concepts that are essential for understanding the 
+        rest of the material.
