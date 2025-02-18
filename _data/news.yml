@@ -1,0 +1,9 @@
+- title: "New Course Announcement"
+  date: "2023-10-01"
+  content: "We are excited to announce a new course on Advanced Linear Algebra starting next semester."
+  link: "/news/new-course-announcement"
+
+- title: "Upcoming Workshop"
+  date: "2023-09-25"
+  content: "Join us for a workshop on Machine Learning and Linear Algebra on October 15th."
+  link: "/news/upcoming-workshop"
